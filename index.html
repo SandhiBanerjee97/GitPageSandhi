@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/materialize.min.css"> <!--materilize style-->
+    <link rel="stylesheet" href="css/bootstrap-4-utilities.min.css"> <!--bootstrap style-->
+    <link rel="stylesheet" href="css/style.css">           <!--Custom style-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icon-->
+</head>
+<body>
+                                        <!--NAVIGATION SECTION-->
+    <nav class="bg-primary">                                                 <!--nav-->
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" class="brand-logo">Sandhi Banerjee</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html"><i class="material-icons left">home</i>Home</a></li>
+                <li><a href="#aboutMe"><i class="material-icons left">person</i>About Me</a></li>
+                <li><a href="#contactMe"><i class="material-icons left">contact_phone</i>Contact Me</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">                                     <!--side nav-->
+        <li><div class="user-view">
+          <div class="background">
+            <img src="images/aged-1846818_1920.jpg" >
+          </div>
+          <a href="#user"><img class="circle" src="images/img1.jpg"></a>
+          <a href="#name"><span class="white-text name">Sandhi Banerjee</span></a>
+          <a href="#email"><span class="white-text email">sandhi.banerjee.97@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#!"><i class="material-icons">person</i>About Me</a></li>
+        <li><a href="#!"><i class="material-icons">contact_phone</i>Contact Me</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Social Links</a></li>
+        <li><a class="waves-effect" href="https://www.facebook.com/sandhi.banerjee.52">Facebook</a></li>
+        <li><a class="waves-effect" href="https://www.linkedin.com/in/sandhi-bandyopadhyay-6a18361b7/">LinkedIn</a></li>
+        <li><a class="waves-effect" href="https://github.com/SandhiBanerjee97">GitHub</a></li>
+      </ul>
+                                            <!--BANNER SECTION-->
+      <section>                             
+      <div class="parallax-container">                                         <!--parallax-->
+        <div class="parallax"><img src="images/background.png"></div>
+          <div class="container center-align mt-5 pt-5">
+              <h2 class="black-text mt-5">My Banner</h2>
+              <p class="black-text  flow-text">Hey Friends , hope you Like my Page !</p>
+              <button class=" btn bg-primary ">Click Here</button>
+          </div>
+        </div>
+      </div>
+      </section>
+                                            <!--CONTENT SECTION-->
+      <section>
+        <div class="container">
+          <h3 class="center-align">My Small Projects</h3>
+          <div class="row mt-5">
+            <div class="col s12 m4">
+              <div class="serviece-container center-align">
+                <i class="medium material-icons" >local_play</i>
+                <h3 >My Games</h3>
+                <p >These are my games</p>
+                <a class="btn bg-primary">click here</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="serviece-container center-align">
+                <i class="medium material-icons" >desktop_windows</i>
+                <h3 >My Apps</h3>
+                <p >These are my designs</p>
+                <a class="btn bg-primary">click here</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="serviece-container center-align">
+                <i class="medium material-icons" >looks</i>
+                <h3>My Designs</h3>
+                <p>These are my apps</p>
+                <a class="btn bg-primary">click here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                                            <!--ABOUT ME-->
+      <section id="aboutMe" class="mt-5 p-5" style="background: url(images/aged-1846818_1920.jpg); background-size: cover;background-attachment: fixed;">
+        <div class="container mt-5 center-align">
+          <h3 class="black-text">About Sandhi Bandyopadhyay</h3>
+          <p class="flow-text black-text">I am Sandhi Bandyopadhyay ,i am an web developer enthusiast i can
+           do front end and back end if you want to know more about me check linkedIn</p>
+           <a href="#knowMore"class="btn bg-primary">know more</a>
+        </div>
+      </section>
+                                    <!--COLLAPSABLE AND PROFILE SECTION-->
+      <section class="mt-5">
+        <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+            <img src="images/img1.jpg" class="responsive-img">								
+          </div>
+          <div class="col s12 m6">
+            <ul class="collapsible">
+              <li id="knowMore">
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>Get To Know Me</div>
+                <div class="collapsible-body center-align">
+                  <h4>About Me</h4> <br> I am an web developer enthusiast i can <br> 
+                  do front end and back end if you want to know more about me <br>
+                  check linkedIn
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header "><i class="material-icons">place</i>About My Work</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Contact Me</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </section>
+             </div>
+           </div>
+        </div>
+      </div>                                                                  <!--card end-->
+
+                                              <!--FOOTER SECTION-->
+       <footer class="page-footer bg-primary" id="contactMe">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">My Official Website</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/sandhi.banerjee.52">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/sandhi-bandyopadhyay-6a18361b7/">linkedIn</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/SandhiBanerjee97">GitHub</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+    <!--jQuery-->
+    <script src="js/jquery.min.js"></script>
+    <!--Materilize js-->
+    <script src="js/materialize.min.js"></script>
+    <!--Custom js-->
+    <script src="js/myjs.js"></script>
+</body>
+</html>

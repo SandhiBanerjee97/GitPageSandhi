@@ -1,0 +1,28 @@
+.bg-primary{
+    background:linear-gradient(to right,#d41515,#6b09e3);
+    background: #4e4b4e;
+}
+#myicon{
+    color:#4e4b4e;
+}
+.serviece-container{
+    border: 2px solid #4e4b4e;
+    padding: 10%;
+}
+.serviece-container:hover{
+    background: black;
+    color: white;
+    transition: 300ms all ease-in-out;
+}
+.btn:hover
+{
+    background-image:none;
+    background-color:black;
+    transition: 300ms all ease-in-out;
+}
+.collapsible-header{
+background-color:#ffeadd}
+
+.parallax img {
+    max-height: 250%; 
+  }
