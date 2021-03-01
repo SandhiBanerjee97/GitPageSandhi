@@ -26,3 +26,6 @@ background-color:#ffeadd}
 .parallax img {
     max-height: 250%; 
   }
+nav .brand-logo {
+    font-size: 1.7rem;
+}
